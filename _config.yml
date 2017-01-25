@@ -7,20 +7,21 @@
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem 
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem https://github.com/jekyll/jekyll-feed
-  - jekyll-default-layout # For a specific post or page, add layout: null. If no layout is specified for a Markdown post or page, the plugin automatically sets the "home", "post", "page", or "default" layout if it exists. 
+#  - jekyll-default-layout # For a specific post or page, add layout: null. If no layout is specified for a Markdown post or page, the plugin automatically sets the "home", "post", "page", or "default" layout if it exists. 
   - jekyll-gist # {% gist parkr/c08ee0f2726fd0e3909d test.md %} # https://github.com/jekyll/jekyll-gist
   - jekyll-github-metadata
   - jekyll-mentions
-  - jekyll-optional-front-matter
+#  - jekyll-optional-front-matter
   - jekyll-readme-index
   - jekyll-redirect-from
-  - jekyll-relative-links
+#  - jekyll-relative-links
   - jekyll-coffeescript
   - jekyll-seo-tag
   - jekyll-titles-from-headings
+  - jekyll-avatar
 
-#jekyll-mentions:
-#  base_url: https://twitter.com
+jekyll-mentions:
+  base_url: https://twitter.com
 
 sitemap: true
 
@@ -99,7 +100,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - README.md
+#  - README.md
   - CNAME
 
 
