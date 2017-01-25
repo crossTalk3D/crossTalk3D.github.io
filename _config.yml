@@ -11,10 +11,10 @@ gems:
   - jekyll-gist # {% gist parkr/c08ee0f2726fd0e3909d test.md %} # https://github.com/jekyll/jekyll-gist
   - jekyll-github-metadata
   - jekyll-mentions
-#  - jekyll-optional-front-matter
+  - jekyll-optional-front-matter
   - jekyll-readme-index
   - jekyll-redirect-from
-#  - jekyll-relative-links
+  - jekyll-relative-links
   - jekyll-coffeescript
   - jekyll-seo-tag
   - jekyll-titles-from-headings
