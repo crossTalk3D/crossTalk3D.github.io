@@ -17,6 +17,7 @@ gems:
   - jekyll-relative-links
   - jekyll-coffeescript
   - jekyll-seo-tag
+  - jekyll-titles-from-headings
 
 #jekyll-mentions:
 #  base_url: https://twitter.com
